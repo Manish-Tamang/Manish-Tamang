@@ -1,5 +1,5 @@
 [![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=Manish-Tamang)](https://github.com/Manish-Tamang)
-
+ <img src="https://emojis.slackmojis.com/emojis/images/1593555389/9579/blob_excited.gif?1593555389" width="30"/>
 # Hi there, I'm Manish Tamang! 👋
 
 I'm a 16-year-old from Kathmandu, Nepal, with an unwavering passion for web development. My journey into coding began early, creating websites with React, Next.js, and Tailwind CSS. I aspire to be a full-stack developer crafting impactful web apps. I also share insights on [Medium](#).
