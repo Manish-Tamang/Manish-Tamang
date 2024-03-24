@@ -15,6 +15,8 @@ I'm a 16-year-old from Kathmandu, Nepal, with an unwavering passion for web deve
 ![Tailwind/SCSS](https://skillicons.dev/icons?i=tailwind,scss)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Figma](https://skillicons.dev/icons?i=ae)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Firebase](https://skillicons.dev/icons?i=firebase)
 
 ## Connect with Me
 
