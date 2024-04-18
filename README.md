@@ -1,4 +1,7 @@
-[![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=Manish-Tamang)](https://github.com/Manish-Tamang)
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=Manish-Tamang&label=Profile%20views&color=770677&style=for-the-badge&logo=star" alt="Manish Tamang" style="padding-right:20px;" />
+</p>
+<br />
  <img src="https://emojis.slackmojis.com/emojis/images/1593555389/9579/blob_excited.gif?1593555389" width="30"/>
 # Hi there, I'm Manish Tamang! 👋
 
