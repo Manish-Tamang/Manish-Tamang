@@ -24,3 +24,5 @@ I'm a 16-year-old from Kathmandu, Nepal, with an unwavering passion for web deve
 ## Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manish-tamang-648926282/)
+
+<a href="https://app.daily.dev/manishtamang"><img src="https://api.daily.dev/devcards/v2/9bTEOLMUm8JBRVg82HmiV.png?type=default&r=991" width="356" alt="Manish Tamang's Dev Card"/></a>
