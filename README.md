@@ -1,8 +1,9 @@
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=Manish-Tamang&label=Profile%20views&color=770677&style=for-the-badge&logo=star" alt="Manish Tamang" style="padding-right:20px;" />
+   <img src="https://img.shields.io/badge/Profile%20views-1000-blueviolet?style=for-the-badge&logo=star" alt="Starting from 1000" />
+</p>
 </p>
 <br />
-![Profile Views](https://img.shields.io/badge/Profile%20views-1000-blueviolet?style=for-the-badge&logo=star)
  <img src="https://emojis.slackmojis.com/emojis/images/1593555389/9579/blob_excited.gif?1593555389" width="30"/>
 # Hi there, I'm Manish Tamang! 👋
 
