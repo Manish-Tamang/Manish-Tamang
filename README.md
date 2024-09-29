@@ -30,4 +30,3 @@ I'm a 16-year-old from Itahari, Nepal, with an unwavering passion for web develo
 
 
 
-<a href="https://app.daily.dev/manishtamang"><img src="https://api.daily.dev/devcards/v2/9bTEOLMUm8JBRVg82HmiV.png?type=default&r=991" width="356" alt="Manish Tamang's Dev Card"/></a>
