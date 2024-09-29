@@ -26,7 +26,7 @@ I'm a 16-year-old from Itahari, Nepal, with an unwavering passion for web develo
 ## Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manish-tamang/)
-<img src="https://img.shields.io/website?url=https%3A%2F%2Fmanishtamang.vercel.app%2F" />
+
 
 
 
