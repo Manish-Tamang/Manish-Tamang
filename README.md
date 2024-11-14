@@ -19,11 +19,14 @@ I'm a 16-year-old from Itahari, Nepal, with an unwavering passion for web develo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Tailwind/SCSS](https://skillicons.dev/icons?i=tailwind,scss)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Figma/Firebase](https://skillicons.dev/icons?i=ae,firebase)
+![Supabase/Firebase](https://skillicons.dev/icons?i=supabase,firebase)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Postgres/Prisma](https://skillicons.dev/icons?i=postgres,prisma)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+![Figma/After effects](https://skillicons.dev/icons?i=figma,ae)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Npm/Yarn](https://skillicons.dev/icons?i=npm,yarn)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Connect with Me
 
