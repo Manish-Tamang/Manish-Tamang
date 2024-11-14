@@ -21,6 +21,8 @@ I'm a 16-year-old from Itahari, Nepal, with an unwavering passion for web develo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Figma/Firebase](https://skillicons.dev/icons?i=ae,firebase)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Postgres/Prisma](https://skillicons.dev/icons?i=postgres,prisma)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 ## Connect with Me
