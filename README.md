@@ -5,6 +5,8 @@
 </p>
 <br />
  <img src="https://emojis.slackmojis.com/emojis/images/1593555389/9579/blob_excited.gif?1593555389" width="30"/>
+
+ [![wakatime](https://wakatime.com/badge/user/683edc2d-f7c3-4c58-a817-73299e89b1b3.svg)](https://wakatime.com/@683edc2d-f7c3-4c58-a817-73299e89b1b3)
 # Hi there, I'm Manish Tamang! 👋
 
 I'm a 16-year-old from Itahari, Nepal, with an unwavering passion for web development. My journey into coding began early, creating websites with React, Next.js, and Tailwind CSS. I aspire to be a full-stack developer crafting impactful web apps. I also share insights on [Medium](#).
