@@ -1,12 +1,14 @@
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=Manish-Tamang&label=Profile%20views&color=770677&style=for-the-badge&logo=star" alt="Manish Tamang" style="padding-right:20px;" />
-  
-</p>
 </p>
 <br />
- <img src="https://emojis.slackmojis.com/emojis/images/1593555389/9579/blob_excited.gif?1593555389" width="30"/>
 
- [![wakatime](https://wakatime.com/badge/user/683edc2d-f7c3-4c58-a817-73299e89b1b3.svg)](https://wakatime.com/@683edc2d-f7c3-4c58-a817-73299e89b1b3)
+<img src="https://emojis.slackmojis.com/emojis/images/1593555389/9579/blob_excited.gif?1593555389" width="30"/>
+
+[![wakatime](https://wakatime.com/badge/user/683edc2d-f7c3-4c58-a817-73299e89b1b3.svg)](https://wakatime.com/@683edc2d-f7c3-4c58-a817-73299e89b1b3)
+
+<img src="https://github.com/Manish-Tamang/Manish-Tamang/blob/main/img/twitter-banner.jpg?raw=true" alt="Twitter Banner" width="100%"/>
+
 # Hi there, I'm Manish Tamang! 👋
 
 I’m a 16-year-old from Itahari, Nepal, with an unwavering passion for web development. My journey into coding began early, exploring and mastering the integration and customization of various tech stacks. I aspire to become a full-stack developer, building impactful web applications that make a difference.
@@ -14,8 +16,6 @@ I’m a 16-year-old from Itahari, Nepal, with an unwavering passion for web deve
 I also share my thoughts and insights on programming and technology through blogs on my [website](https://www.manishtamang.com/blog)
 
 A passionate and amateur computer science enthusiast, I have a deep love for technology and innovation. 🚀
-
-
 
 ## Tech Stacks
 
@@ -34,7 +34,6 @@ A passionate and amateur computer science enthusiast, I have a deep love for tec
 ![Figma/After effects](https://skillicons.dev/icons?i=figma,ae)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Npm/Yarn](https://skillicons.dev/icons?i=npm,yarn)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Connect with Me
 
@@ -45,11 +44,3 @@ A passionate and amateur computer science enthusiast, I have a deep love for tec
 [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@golecodes)
 [![Website](https://img.shields.io/badge/Website-%230000FF.svg?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.manishtamang.com)
 [![X (Twitter)](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Manishtamangxyz)
-
-
-
-  
-
-
-
-
