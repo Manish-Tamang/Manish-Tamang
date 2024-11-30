@@ -9,9 +9,15 @@
  [![wakatime](https://wakatime.com/badge/user/683edc2d-f7c3-4c58-a817-73299e89b1b3.svg)](https://wakatime.com/@683edc2d-f7c3-4c58-a817-73299e89b1b3)
 # Hi there, I'm Manish Tamang! 👋
 
-I'm a 16-year-old from Itahari, Nepal, with an unwavering passion for web development. My journey into coding began early, creating websites with React, Next.js, and Tailwind CSS. I aspire to be a full-stack developer crafting impactful web apps. I also share insights on [Medium](#).
+I’m a 16-year-old from Itahari, Nepal, with an unwavering passion for web development. My journey into coding began early, exploring and mastering the integration and customization of various tech stacks. I aspire to become a full-stack developer, building impactful web applications that make a difference.
 
-## Skills
+I also share my thoughts and insights on programming and technology through blogs on my [website](https://www.manishtamang.com/blog)
+
+A passionate and amateur computer science enthusiast, I have a deep love for technology and innovation. 🚀
+
+
+
+## Tech Stacks
 
 ![HTML/CSS](https://skillicons.dev/icons?i=html,css)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -32,7 +38,15 @@ I'm a 16-year-old from Itahari, Nepal, with an unwavering passion for web develo
 
 ## Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manish-tamang/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manish-tamang/)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/manishgoletamang)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/codewithmanish_)
+[![Medium](https://img.shields.io/badge/Medium-%23000000.svg?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@manishgoletamang)
+[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@golecodes)
+[![Website](https://img.shields.io/badge/Website-%230000FF.svg?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.manishtamang.com)
+[![X (Twitter)](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Manishtamangxyz)
+
+
 
   
 
