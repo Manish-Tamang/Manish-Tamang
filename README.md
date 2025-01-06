@@ -9,7 +9,7 @@
 
 <img src="https://github.com/Manish-Tamang/Manish-Tamang/blob/main/img/twitter-banner.jpg?raw=true" alt="Twitter Banner" width="100%"/>
 
-# Hi there, I'm Manish Tamang! 👋
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=D67BFF&width=435&lines=Hi+there%2C+I'm+Manish+Tamang!+%F0%9F%91%8B)](https://git.io/typing-svg)
 
 I’m a 16-year-old from Itahari, Nepal, with an unwavering passion for web development. My journey into coding began early, exploring and mastering the integration and customization of various tech stacks. I aspire to become a full-stack developer, building impactful web applications that make a difference.
 
