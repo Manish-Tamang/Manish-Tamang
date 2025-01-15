@@ -1,11 +1,7 @@
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=Manish-Tamang&label=Profile%20views&color=770677&style=for-the-badge&logo=star" alt="Manish Tamang" style="padding-right:20px;" />
-</p>
-<br />
 
-<img src="https://emojis.slackmojis.com/emojis/images/1593555389/9579/blob_excited.gif?1593555389" width="30"/>
-
-[![wakatime](https://wakatime.com/badge/user/683edc2d-f7c3-4c58-a817-73299e89b1b3.svg)](https://wakatime.com/@683edc2d-f7c3-4c58-a817-73299e89b1b3)
+[![Visits Badge](https://komarev.com/ghpvc/?username=Manish-Tamang&label=Profile%20views&color=770677&style=for-the-badge)](https://manishtamang.com)
+[![](https://wakatime.com/badge/user/683edc2d-f7c3-4c58-a817-73299e89b1b3.svg?style=for-the-badge)](https://wakatime.com/@manishtamang)
+  <img src="https://emojis.slackmojis.com/emojis/images/1593555389/9579/blob_excited.gif?1593555389" width="30"/>
 
 <img src="https://github.com/Manish-Tamang/Manish-Tamang/blob/main/img/twitter-banner.jpg?raw=true" alt="Twitter Banner" width="100%"/>
 
@@ -18,22 +14,11 @@ I also share my thoughts and insights on programming and technology through blog
 A passionate and amateur computer science enthusiast, I have a deep love for technology and innovation. 🚀
 
 ## Tech Stacks
+<p align="left">
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,nextjs,react,figma,git,nodejs,postgres,prisma,postman,tailwind,vscode,vercel,supabase,sass,powershell,planetscale,mysql,md,firebase,express,cloudflare,bun,docker,npm,pnpm,ae"/>
+</p>
 
-![HTML/CSS](https://skillicons.dev/icons?i=html,css)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![JavaScript/TypeScript](https://skillicons.dev/icons?i=js,ts)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![React/Next.js](https://skillicons.dev/icons?i=react,next)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Tailwind/SCSS](https://skillicons.dev/icons?i=tailwind,scss)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Supabase/Firebase](https://skillicons.dev/icons?i=supabase,firebase)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Postgres/Prisma](https://skillicons.dev/icons?i=postgres,prisma)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Figma/After effects](https://skillicons.dev/icons?i=figma,ae)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Npm/Yarn](https://skillicons.dev/icons?i=npm,yarn)
+
 
 ## Connect with Me
 
