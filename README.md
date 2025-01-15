@@ -13,14 +13,14 @@ I also share my thoughts and insights on programming and technology through blog
 
 A passionate and amateur computer science enthusiast, I have a deep love for technology and innovation. 🚀
 
-## Tech Stacks
+## Tech Stacks and Tools 👨‍💻
 <p align="left">
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,nextjs,react,figma,git,nodejs,postgres,prisma,postman,tailwind,vscode,vercel,supabase,sass,powershell,planetscale,mysql,md,firebase,express,cloudflare,bun,docker,npm,pnpm,ae"/>
 </p>
 
 
 
-## Connect with Me
+## Connect with Me 🫣
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manish-tamang/)
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/manishgoletamang)
