@@ -15,7 +15,7 @@ A passionate and amateur computer science enthusiast, I have a deep love for tec
 
 ## Tech Stacks and Tools 👨‍💻
 <p align="left">
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,nextjs,react,figma,git,nodejs,postgres,prisma,postman,tailwind,vscode,vercel,supabase,sass,powershell,planetscale,mysql,md,firebase,express,cloudflare,bun,docker,npm,pnpm,ae"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,nextjs,react,figma,git,nodejs,postgres,prisma,postman,tailwind,vscode,vercel,supabase,sass,powershell,planetscale,mysql,md,firebase,express,cloudflare,bun,docker,npm,pnpm,ae,notion"/>
 </p>
 
 
