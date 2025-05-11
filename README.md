@@ -7,7 +7,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=38&pause=1000&color=D67BFF&width=700&lines=Hi+there%2C+I'm+Manish+Tamang!+%F0%9F%91%8B)](https://git.io/typing-svg)
 
-I’m a 16-year-old from Itahari, Nepal, with an unwavering passion for web development. My journey into coding began early, exploring and mastering the integration and customization of various tech stacks. I aspire to become a full-stack developer, building impactful web applications that make a difference.
+I’m a 17-year-old from Itahari, Nepal, with an unwavering passion for web development. My journey into coding began early, exploring and mastering the integration and customization of various tech stacks. I aspire to become a full-stack developer, building impactful web applications that make a difference.
 
 I also share my thoughts and insights on programming and technology through blogs on my [website](https://www.manishtamang.com/blog)
 
