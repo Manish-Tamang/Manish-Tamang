@@ -28,4 +28,3 @@ A passionate and amateur computer science enthusiast, I have a deep love for tec
 [![Website](https://img.shields.io/badge/Website-%230000FF.svg?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.manishtamang.com)
 [![X (Twitter)](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Manishtamangxyz)
 
-<a href="https://app.daily.dev/manishtamang"><img src="https://api.daily.dev/devcards/v2/9bTEOLMUm8JBRVg82HmiV.png?type=wide&r=evo" width="100%" alt="Manish Tamang's Dev Card"/></a>
