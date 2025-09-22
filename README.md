@@ -3,8 +3,6 @@
 [![](https://wakatime.com/badge/user/683edc2d-f7c3-4c58-a817-73299e89b1b3.svg?style=for-the-badge)](https://wakatime.com/@manishtamang)
   <img src="https://emojis.slackmojis.com/emojis/images/1593555389/9579/blob_excited.gif?1593555389" width="30"/>
 
-<img src="https://github.com/Manish-Tamang/Manish-Tamang/blob/main/img/twitter-banner.jpg?raw=true" alt="Twitter Banner" width="100%"/>
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=38&pause=1000&color=D67BFF&width=700&lines=Hi+there%2C+I'm+Manish+Tamang!+%F0%9F%91%8B)](https://git.io/typing-svg)
 
 I’m a 17-year-old from Itahari, Nepal, with an unwavering passion for web development. My journey into coding began early, exploring and mastering the integration and customization of various tech stacks. I aspire to become a full-stack developer, building impactful web applications that make a difference.
