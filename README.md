@@ -1,5 +1,6 @@
 [![Visits Badge](https://komarev.com/ghpvc/?username=Manish-Tamang&label=Profile%20views&color=770677&style=flat)](https://manishtamang.com)
 [![](https://wakatime.com/badge/user/683edc2d-f7c3-4c58-a817-73299e89b1b3.svg)](https://wakatime.com/@manishtamang)
+[![committers.top badge](https://user-badge.committers.top/nepal/USERNAME.svg)](https://user-badge.committers.top/nepal/Manish-Tamang)
 
 <img src="https://emojis.slackmojis.com/emojis/images/1593555389/9579/blob_excited.gif?1593555389" width="30"/>
 
