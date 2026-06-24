@@ -20,6 +20,6 @@ A passionate and amateur computer science enthusiast, I have a deep love for tec
 <a href="https://www.instagram.com/golecodes"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" height="30"/></a>
 <a href="https://medium.com/@manishgoletamang"><img src="https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white" height="30"/></a>
 <a href="https://www.tiktok.com/@golecodes"><img src="https://img.shields.io/badge/TikTok-000000?style=flat&logo=tiktok&logoColor=white" height="30"/></a>
-<a href="https://www.manishtamang.com"><img src="https://img.shields.io/badge/Website-4285F4?style=flat&logo=google-chrome&logoColor=white" height="30"/></a>
+<a href="https://manishtamang.com"><img src="https://img.shields.io/badge/Website-4285F4?style=flat&logo=google-chrome&logoColor=white" height="30"/></a>
 <a href="https://x.com/Manishtamangxyz"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" height="30"/></a>
 </p>
