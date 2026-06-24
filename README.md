@@ -2,7 +2,7 @@
 [![](https://wakatime.com/badge/user/683edc2d-f7c3-4c58-a817-73299e89b1b3.svg)](https://wakatime.com/@manishtamang)
 [![committers.top badge](https://user-badge.committers.top/nepal/Manish-Tamang.svg)](https://user-badge.committers.top/nepal/Manish-Tamang)
 
-<img src="https://emojis.slackmojis.com/emojis/images/1593555389/9579/blob_excited.gif?1593555389" width="30"/>
+<img src="https://user-images.githubusercontent.com/74038190/226127913-88de86d3-8437-45b9-a3b6-e746b47f655a.gif" width="40" style="margin-bottom: 2px"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=38&pause=1000&color=3BAC66&width=700&lines=Hi+there%2C+I'm+Manish+Tamang!+%F0%9F%91%8B)](https://git.io/typing-svg)
 
