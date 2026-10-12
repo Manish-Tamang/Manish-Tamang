@@ -1,4 +1,4 @@
-[![Visits Badge](https://komarev.com/ghpvc/?username=Manish-Tamang&label=Profile%20views&color=770677&style=flat)](https://manishtamang.com)
+![Profile Views](https://komarev.com/ghpvc/?username=Manish-Tamang&label=Profile%20views&color=770677&style=flat)
 [![](https://wakatime.com/badge/user/683edc2d-f7c3-4c58-a817-73299e89b1b3.svg)](https://wakatime.com/@manishtamang)
 [![committers.top badge](https://user-badge.committers.top/nepal/Manish-Tamang.svg)](https://user-badge.committers.top/nepal/Manish-Tamang)
 
