@@ -10,6 +10,15 @@
 - Writing about code and tech on [my blog](https://manishtamang.com/blog)
 - Learning something new every day
 
+**Listening to**
+
+<a href="https://manishtamang.com/api/now-playing/open">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://manishtamang.com/api/now-playing/svg?theme=dark" />
+    <img src="https://manishtamang.com/api/now-playing/svg?theme=light" alt="What I'm listening to on Spotify" />
+  </picture>
+</a>
+
 **Find me**
 
 [Website](https://manishtamang.com) · [Email](mailto:hi@manishtamang.com) · [X](https://x.com/Manishtamangxyz) · [LinkedIn](https://www.linkedin.com/in/manish-tamang/) · [Medium](https://medium.com/@manishgoletamang) · [Instagram](https://www.instagram.com/golecodes) · [TikTok](https://www.tiktok.com/@golecodes)
