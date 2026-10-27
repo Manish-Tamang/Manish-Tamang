@@ -1,3 +1,4 @@
+<img src="img/yeti.svg" align="right" width="170" alt="Yeti peeking over the heading" />
 <img src="https://user-images.githubusercontent.com/74038190/226127913-88de86d3-8437-45b9-a3b6-e746b47f655a.gif" width="40" />
 
 ## Hi, I'm Manish Tamang
@@ -12,12 +13,14 @@
 
 **Listening to**
 
+<p>
 <a href="https://manishtamang.com/api/now-playing/open">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://manishtamang.com/api/now-playing/svg?theme=dark" />
     <img src="https://manishtamang.com/api/now-playing/svg?theme=light" alt="What I'm listening to on Spotify" />
   </picture>
 </a>
+</p>
 
 **Find me**
 
