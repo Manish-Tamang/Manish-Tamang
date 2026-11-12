@@ -1,0 +1,26 @@
+{
+  "name": "github-notifier",
+  "private": true,
+  "type": "module",
+  "description": "Emails me when someone stars my repos or follows me on GitHub",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env src/node.ts",
+    "build": "tsc",
+    "start": "node dist/node.js",
+    "typecheck": "tsc --noEmit",
+    "deploy": "wrangler deploy",
+    "cf:dev": "wrangler dev --test-scheduled",
+    "preview": "tsx scripts/preview-emails.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.1.7",
+    "hono": "^4.13.18",
+    "resend": "^6.38.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.160.1"
+  }
+}

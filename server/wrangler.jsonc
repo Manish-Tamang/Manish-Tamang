@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "github-notifier",
+  "main": "src/worker.ts",
+  "compatibility_date": "2026-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  // Follower check every 15 min (GitHub has no follow webhook)
+  "triggers": { "crons": ["*/15 * * * *"] },
+  "observability": { "enabled": true }
+  // Secrets: npx wrangler secret put <NAME>  (see SETUP.md)
+}

@@ -1,0 +1,7 @@
+node_modules
+dist
+.env
+.vercel
+.dev.vars
+.wrangler
+email-previews

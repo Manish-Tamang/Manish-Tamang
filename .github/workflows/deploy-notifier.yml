@@ -1,0 +1,58 @@
+name: Deploy notifier
+
+# Deploys server/ to Cloudflare Workers and syncs its secrets from this repo's Actions secrets.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "server/**"
+      - ".github/workflows/deploy-notifier.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-notifier
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: server
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: server/package-lock.json
+
+      - run: npm ci
+
+      - run: npm run typecheck
+
+      - name: Deploy worker
+        run: npx wrangler deploy
+
+      - name: Sync secrets
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.NOTIFIER_GITHUB_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
+          GITHUB_WEBHOOK_SECRET: ${{ secrets.WEBHOOK_SECRET }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          names="RESEND_API_KEY GITHUB_TOKEN GIST_ID GITHUB_WEBHOOK_SECRET CRON_SECRET"
+          for n in $names; do
+            if [ -z "${!n}" ]; then echo "::error::Missing repo secret for $n"; exit 1; fi
+          done
+          file="$RUNNER_TEMP/secrets.json"
+          jq -n '{RESEND_API_KEY: env.RESEND_API_KEY, GITHUB_TOKEN: env.GITHUB_TOKEN, GIST_ID: env.GIST_ID,
+                  GITHUB_WEBHOOK_SECRET: env.GITHUB_WEBHOOK_SECRET, CRON_SECRET: env.CRON_SECRET}' > "$file"
+          npx wrangler secret bulk "$file"
+          rm -f "$file"
