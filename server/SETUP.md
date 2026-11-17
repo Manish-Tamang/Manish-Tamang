@@ -3,8 +3,9 @@
 Hono server that emails `hi@manishtamang.com` (via Resend) when someone:
 
 - **stars a repo** → GitHub `star` webhook → `POST /webhooks/github` (instant)
-- **follows me** → GitHub has no follow webhook, so a Cloudflare Cron Trigger runs the follower check
-  every 15 min. The server compares the follower list with a snapshot in a secret gist.
+- **follows or unfollows me** → GitHub has no follow webhook, so a Cloudflare Cron Trigger runs the follower
+  check every 15 min. The server compares the follower list with a snapshot in a secret gist. New follows and
+  unfollows found in the same check arrive together in one email. A renamed or deleted account shows up as an unfollow.
 
 ## 1. Resend
 - Verify `manishtamang.com` (or whatever domain `EMAIL_FROM` uses) in Resend → Domains.
