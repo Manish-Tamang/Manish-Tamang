@@ -47,17 +47,49 @@ export function starEmail(user: GitHubUser, repo: Repo): Email {
   }
 }
 
-export function followersEmail(users: GitHubUser[], total: number): Email {
-  const subject = total === 1 ? `👋 ${users[0]!.login} followed you on GitHub` : `👋 ${total} new GitHub followers`
-  const extra = total - users.length
-  const more = extra > 0 ? `<p style="color:#6b7280;font-size:13px">…and ${extra} more.</p>` : ''
+export type FollowerChange = {
+  gained: GitHubUser[] // profiles to show (capped)
+  gainedTotal: number
+  lost: GitHubUser[]
+  lostTotal: number
+  total: number // follower count now
+}
+
+/** One email covering new followers and unfollows found in the same check. */
+export function followersEmail(ch: FollowerChange): Email {
+  const g = ch.gainedTotal
+  const l = ch.lostTotal
+  const subject =
+    g && l
+      ? `👋 GitHub followers: ${g} new, ${l} unfollowed`
+      : g
+        ? g === 1
+          ? `👋 ${ch.gained[0]!.login} followed you on GitHub`
+          : `👋 ${g} new GitHub followers`
+        : l === 1
+          ? `💔 ${ch.lost[0]!.login} unfollowed you on GitHub`
+          : `💔 ${l} people unfollowed you on GitHub`
+
+  const both = g > 0 && l > 0
+  const section = (title: string, users: GitHubUser[], count: number) => {
+    if (!count) return { html: '', text: '' }
+    const extra = count - users.length
+    const heading = both ? `<h3 style="font-size:15px;margin:20px 0 4px">${title} (${count})</h3>` : ''
+    const more = extra > 0 ? `<p style="color:#6b7280;font-size:13px">…and ${extra} more.</p>` : ''
+    const text =
+      `${title}:\n` + users.map((u) => `  ${u.login} — ${u.html_url}`).join('\n') + (extra > 0 ? `\n  …and ${extra} more` : '')
+    return { html: heading + users.map(userCard).join('') + more, text }
+  }
+  const added = section('New followers', ch.gained, g)
+  const removed = section('Unfollowed', ch.lost, l)
+  const footer = `<p style="color:#6b7280;font-size:13px;margin-top:20px">You now have ${ch.total.toLocaleString('en-US')} followers.</p>`
+
   return {
     subject,
-    html: layout(esc(subject), users.map(userCard).join('') + more),
-    text: users.map((u) => `${u.login} — ${u.html_url}`).join('\n') + (extra > 0 ? `\n…and ${extra} more` : ''),
+    html: layout(esc(subject), added.html + removed.html + footer),
+    text: [added.text, removed.text, `You now have ${ch.total} followers.`].filter(Boolean).join('\n\n'),
   }
 }
 
 export const sendStarEmail = (cfg: MailConfig, user: GitHubUser, repo: Repo) => send(cfg, starEmail(user, repo))
-export const sendFollowersEmail = (cfg: MailConfig, users: GitHubUser[], total: number) =>
-  send(cfg, followersEmail(users, total))
+export const sendFollowersEmail = (cfg: MailConfig, change: FollowerChange) => send(cfg, followersEmail(change))

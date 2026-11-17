@@ -66,8 +66,8 @@ app.post('/webhooks/github', async (c) => {
 })
 
 /**
- * Called by the GitHub Action on a schedule. GitHub has no webhook for follows,
- * so we diff the follower list against the last snapshot stored in a gist.
+ * Run every 15 min by the Cloudflare Cron Trigger (src/worker.ts). GitHub has no webhook for
+ * follows/unfollows, so we diff the follower list against the last snapshot stored in a gist.
  */
 app.post('/cron/followers', async (c) => {
   const cfg = config(c)
@@ -89,22 +89,34 @@ app.post('/cron/followers', async (c) => {
   }
 
   const known = new Set(state.followers.map((l) => l.toLowerCase()))
+  const now = new Set(logins.map((l) => l.toLowerCase()))
   const fresh = current.filter((u) => !known.has(u.login.toLowerCase()))
+  const gone = state.followers.filter((l) => !now.has(l.toLowerCase()))
 
-  if (fresh.length) {
-    const shown = await Promise.all(
-      fresh.slice(0, 10).map(async (u) => (await getUser(u.login, cfg.GITHUB_TOKEN)) ?? u),
-    )
+  if (fresh.length || gone.length) {
+    const profile = async (login: string, fallback: GitHubUser) => (await getUser(login, cfg.GITHUB_TOKEN)) ?? fallback
+    const [gained, lost] = await Promise.all([
+      Promise.all(fresh.slice(0, 10).map((u) => profile(u.login, u))),
+      // Unfollowers aren't in the list anymore, so build a fallback from the login
+      // (getUser returns null if the account was deleted or suspended).
+      Promise.all(
+        gone.slice(0, 10).map((l) =>
+          profile(l, { login: l, html_url: `https://github.com/${l}`, avatar_url: `https://github.com/${l}.png?size=96` }),
+        ),
+      ),
+    ])
     // Email first: if it fails, the snapshot isn't updated and the next run retries.
-    await sendFollowersEmail(cfg.mail, shown, fresh.length)
-  }
-
-  // No new logins + same count => identical set; skip the write to avoid gist revision spam.
-  if (fresh.length || logins.length !== state.followers.length) {
+    await sendFollowersEmail(cfg.mail, {
+      gained,
+      gainedTotal: fresh.length,
+      lost,
+      lostTotal: gone.length,
+      total: logins.length,
+    })
     await writeState(cfg.GIST_ID, cfg.GITHUB_TOKEN, logins)
   }
 
-  return c.json({ followers: logins.length, new: fresh.map((u) => u.login) })
+  return c.json({ followers: logins.length, new: fresh.map((u) => u.login), unfollowed: gone })
 })
 
 app.onError((err, c) => {
