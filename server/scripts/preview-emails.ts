@@ -32,8 +32,10 @@ const emails: Record<string, Email> = {
     html_url: 'https://github.com/Manish-Tamang/dittu',
     stargazers_count: 42,
   }),
-  'follow-one': followersEmail([octocat], 1),
-  'follow-many': followersEmail([octocat, torvalds], 2),
+  'follow-one': followersEmail({ gained: [octocat], gainedTotal: 1, lost: [], lostTotal: 0, total: 128 }),
+  'follow-many': followersEmail({ gained: [octocat, torvalds], gainedTotal: 2, lost: [], lostTotal: 0, total: 129 }),
+  'unfollow-one': followersEmail({ gained: [], gainedTotal: 0, lost: [torvalds], lostTotal: 1, total: 127 }),
+  mixed: followersEmail({ gained: [octocat], gainedTotal: 1, lost: [torvalds], lostTotal: 1, total: 127 }),
 }
 
 // Wrap each email in an inbox-style frame showing the subject line.
